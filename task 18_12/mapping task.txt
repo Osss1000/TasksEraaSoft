@@ -1,0 +1,28 @@
+1-
+
+musician(name , id , st , city , phone )
+instrument(name , key )
+song(title , author , id )
+album(id , date , title , musician_id)
+musician_instrument(id , name )
+musician_song(id , title)
+
+2-
+
+SalesOffice(num , loc )
+employee(id , name , num )
+property( id , add , city , state , zip , num )
+owner( id , name )
+property_owner(property_id , owner_id , percent-owned )
+
+3- 
+
+patient( name , id , dob , ward_id )
+consultant( id , name )
+ward( id , name )
+nurse( id , name , ward_id )
+drug( rec_dosage , code )
+drug_brand(code , brand )
+patient_consultant( patient_id , consultant_id )
+patient_drug( patient_id , code , date , time , dosage )
+patient_nusre( patient_id , nurse_id )
